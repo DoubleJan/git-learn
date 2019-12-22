@@ -1,0 +1,11 @@
+{
+  "name": "git-learn",
+  "version": "1.0.0",
+  "description": "git学习，笔记，demo项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
