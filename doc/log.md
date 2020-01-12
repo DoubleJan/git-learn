@@ -182,29 +182,15 @@ Date:   Sun Dec 22 16:37:15 2019 +0800
     init 初始化项目
 ```
 
-### file
+### since until
 
 ```javascript
-git log <file>
+git log <since>..<until>
 ```
 
-按文件查看。
+只显示包含发生在`<since>`, `<until>`之间的提交。这两个可以是提交的id，分支名，`HEAD`或者其他的引用。
 
 ```javascript
-λ git log ./doc/status.md
 
-commit 07a2513c27d3f80baea44d7066230fa952f5185e
-Author: doublejan <954464727@qq.com>
-Date:   Sun Dec 22 17:28:31 2019 +0800
-
-    update: 演示status
 ```
-
-## graph
-
-```javascript
-git log --graph
-```
-
-`--graph` 标记会绘制一幅字符组成的图形，左边是提交，右边是提交信息
 

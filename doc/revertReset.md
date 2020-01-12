@@ -11,3 +11,14 @@
 ```javascript
 git revert <commit>
 ```
+
+### 3. 例子
+
+```javascript
+λ git revert 96a1d64
+CONFLICT (modify/delete): doc/checkout.md deleted in parent of 96a1d64... update: checkout and modified in HEAD. Version HEAD of doc/checkout.md left in tree.
+error: could not revert 96a1d64... update: checkout
+hint: after resolving the conflicts, mark the corrected paths
+hint: with 'git add <paths>' or 'git rm <paths>'
+hint: and commit the result with 'git commit'
+```
