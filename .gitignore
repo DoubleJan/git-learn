@@ -1,5 +1,2 @@
-# 忽略node资源目录
-/node_modules
 
-# 不忽略doc目录及下面所有文件
-!/doc/*
+/node_modules
